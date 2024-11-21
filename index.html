@@ -1,100 +1,183 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | [Blogr]</title>
-  <link rel="stylesheet" href="style.css">
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
-  Product
+    <title>Frontend Mentor | [Blogr]</title>
+    <link rel="stylesheet" href="style.css" />
 
-  Overview
-  Pricing
-  Marketplace
-  Features
-  Integrations
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <header>
+        <div class="logo">Ayomide</div>
+        <div class="selectItem">
+          <select>
+            <option value="value1">Product</option>
+            <option value="value2"><span>Overview</span></option>
+            <option value="value3"><span>Pricing</span></option>
+            <option value="value4"><span>Marketplace</span></option>
+            <option value="value5"><span>Features</span></option>
+            <option value="value6"><span>Integrations</span></option>
+          </select>
+          <select name="" id="" class="dropdown">
+            <option value="" class="option">Company</option>
+            <option value="" class="option">About</option>
+            <option value="" class="option">Team</option>
+            <option value="" class="option">Blog</option>
+            <option value="" class="option">Careers</option>
+          </select>
+          <select name="" id="">
+            <option value="">Connect</option>
+            <option value="">Contact</option>
+            <option value="">Newsletter</option>
+            <option value="">LinkedIn</option>
+          </select>
+        </div>
+        <div class="header-btn">
+          <button class="login">Login</button>
+          <button class="signUp">Sign Up</button>
+        </div>
+      </header>
 
-  Company
+      <div class="container">
+        <div class="textContainer">
+          <h2>A modern publishing platform</h2>
+          <p>Grow your audience and build your online brand</p>
+        </div>
+        <div class="button">
+          <button class="buttonStart">Start for Free</button>
+          <button class="buttonLearn">Learn More</button>
+        </div>
+      </div>
+    </main>
+    <!-- section 2 Design for the future -->
+    <section>
+      <div class="sec2_container">
+        <div class="leftCol">
+          <h2>Designed for the future</h2>
 
-  About
-  Team
-  Blog
-  Careers
+          <h3 class="title">Introducing an extensible editor</h3>
+          <p>
+            Blogr features an exceedingly intuitive interface which lets you
+            focus on one thing: creating content. The editor supports management
+            of multiple blogs and allows easy manipulation of embeds such as
+            images, videos, and Markdown. Extensibility with plugins and themes
+            provide easy ways to add functionality or change the looks of a
+            blog.
+          </p>
+          <h3 class="title">Robust content management</h3>
+          <p>
+            Flexible content management enables users to easily move through
+            posts. Increase the usability of your blog by adding customized
+            categories, sections, format, or flow. With this functionality,
+            you’re in full control.
+          </p>
+        </div>
+        <div class="rightCol">
+          <div class="svg-col">
+            <img src="images/illustration-editor-desktop.svg" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- section 3 -->
+    <section class="sec3">
+      <div class="sec3_container">
+       
+        <div class="sec3_leftcol">
+          <img src="images/illustration-phones.svg" alt="" srcset="" />
+        </div>
+        <div class="sec3_rightcol">
+          <h2>State of the Art Infrastructure</h2>
+          <p>
+            With reliability and speed in mind, worldwide data centers provide
+            the backbone for ultra-fast connectivity. This ensures your site
+            will load instantly, no matter where your readers are, keeping your
+            site competitive.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- section 4 -->
+    <section class="sec4">
+      <div class="sec4-container">
+        <div class="sec4_leftcol">
+          <img src="images/illustration-laptop-desktop.svg" alt="" />
+        </div>
+        <div class="sec4_rightcol">
+          <h2 class="sec4_title">Free, open, simple Blogr</h2>
+          <p>
+            is a free and open source application backed by a large community of
+            helpful developers. It supports features such as code syntax
+            highlighting, RSS feeds, social media integration, third-party
+            commenting tools, and works seamlessly with Google Analytics. The
+            architecture is clean and is relatively easy to learn.
+          </p>
+          <h2 class="sec4_title">Powerful tooling</h2>
+          <p>
+            Batteries included. We built a simple and straightforward CLI tool
+            that makes customization and deployment a breeze, but capable of
+            producing even the most complicated sites.
+          </p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="footer_container">
+        <h2>blog</h2>
+        <ul>
+          <li class="top"><strong>Product</strong></li>
+          <li>Overview</li>
+          <li>Pricing</li>
+          <li>Marketplace</li>
+          <li>Features</li>
+          <li>Integrations</li>
+            
+      </ul> 
+      <ul>
+        <li class="top"><strong>Company</strong></li>
+        <li>About</li>
+        <li>Blog</li>
+        <li>Team</li>
+         
+         
+      </ul>
+      <ul>
+        <li class="top"><strong>Careers</strong></li>
+        <li>Connect</li>
+        <li>Contact</li>
+        <li>Newsletter</li>
+        <li>LinkedIn</li>
+           
+      </ul>
+      </div>
+    </footer>
 
-  Connect
-
-  Contact
-  Newsletter
-  LinkedIn
-  
-  Login
-  Sign Up
-
-  A modern publishing platform
-  Grow your audience and build your online brand
-
-  Start for Free
-  Learn More
-
-  Designed for the future
-
-  Introducing an extensible editor
-  Blogr features an exceedingly intuitive interface which lets you focus on one thing: creating content. 
-  The editor supports management of multiple blogs and allows easy manipulation of embeds such as images, 
-  videos, and Markdown. Extensibility with plugins and themes provide easy ways to add functionality or 
-  change the looks of a blog.
-
-  Robust content management
-  Flexible content management enables users to easily move through posts. Increase the usability of your blog 
-  by adding customized categories, sections, format, or flow. With this functionality, you’re in full control.
-
-  State of the Art Infrastructure
-  With reliability and speed in mind, worldwide data centers provide the backbone for ultra-fast connectivity. 
-  This ensures your site will load instantly, no matter where your readers are, keeping your site competitive.
-
-  Free, open, simple
-  Blogr is a free and open source application backed by a large community of helpful developers. It supports 
-  features such as code syntax highlighting, RSS feeds, social media integration, third-party commenting tools, 
-  and works seamlessly with Google Analytics. The architecture is clean and is relatively easy to learn.
-
-  Powerful tooling
-  Batteries included. We built a simple and straightforward CLI tool that makes customization and deployment a breeze, but
-  capable of producing even the most complicated sites.
-
-  Product
-
-  Overview
-  Pricing
-  Marketplace
-  Features
-  Integrations
-
-  Company
-
-  About
-  Team
-  Blog
-  Careers
-
-  Connect
-  
-  Contact
-  Newsletter
-  LinkedIn
-
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Your Name Here</a>.
+    </div>
+  </body>
 </html>
